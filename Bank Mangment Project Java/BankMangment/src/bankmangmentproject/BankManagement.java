@@ -5,12 +5,11 @@ import java.util.Scanner;
 /**
  * @author MD KUTUB UDDIN
  */
-
 public class BankManagement {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter initial balance: Tk ");
+        System.out.print("Enter initial balance : Tk ");
         double initialBalance = scanner.nextDouble();
 
         BankAccount account = new BankAccount(initialBalance);
@@ -26,12 +25,12 @@ public class BankManagement {
 
             switch (choice) {
                 case 1:
-                    System.out.print("Enter amount to deposit: Tk ");
+                    System.out.print("Enter amount to deposit : Tk ");
                     double depositAmount = scanner.nextDouble();
                     account.deposit(depositAmount);
                     break;
                 case 2:
-                    System.out.print("Enter amount to withdraw: Tk");
+                    System.out.print("Enter amount to withdraw : Tk  ");
                     double withdrawAmount = scanner.nextDouble();
                     account.withdraw(withdrawAmount);
                     break;
