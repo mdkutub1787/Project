@@ -1,6 +1,6 @@
 package jeeshop;
 
-import view.ProductView;
+import view.Login;
 
 /**
  * @author MD KUTUB UDDIN
@@ -9,11 +9,9 @@ public class JEEShop {
 
     public static void main(String[] args) {
 
-        ProductView pv=new ProductView();
+        Login login = new Login();
+        login.setVisible(true);
 
-        pv.setVisible(true);
-
-        
     }
 
 }
