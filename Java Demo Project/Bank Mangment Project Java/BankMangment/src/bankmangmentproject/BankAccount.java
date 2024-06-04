@@ -1,8 +1,6 @@
 package bankmangmentproject;
 
-/**
- * @author MD KUTUB UDDIN
- */
+
 public class BankAccount {
 
     private double balance;

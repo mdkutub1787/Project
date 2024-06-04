@@ -1,18 +1,19 @@
 package bankmangmentproject;
 
+
 import java.util.Scanner;
 
 /**
  * @author MD KUTUB UDDIN
  */
-public class BankManagement {
+public class BankManagement1 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter initial balance : Tk ");
         double initialBalance = scanner.nextDouble();
 
-        BankAccount account = new BankAccount(initialBalance);
+        BankAccount account=new SavingsAccount(initialBalance);
 
         while (true) {
             System.out.println("\n1. Deposit");
